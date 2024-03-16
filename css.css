@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#layout{
+    max-width: 960px;
+    border: 1px solid white;
+    margin: 0px auto;
+}
+
+    
+
+header{
+text-align: center;
+display: flex;
+}
+nav{
+    line-height: 40px;
+    background: red;
+   
+}
+.menu a{
+    margin: 0px;
+    padding: 10px 7px 10px 7px;
+    text-decoration: none;
+    color: white;
+}
+.menu a:hover{
+    color: violet;
+    text-decoration: underline;
+}
+.right{
+    float: right;
+    padding: 0 0 5px;
+    justify-content: space-evenly;
+}
+.right input{
+    justify-content: space-evenly;
+
+}
+button{
+    background: rgb(8, 8, 43);
+    color: white;
+}
+article{
+    min-height: 400px;
+    width: 75%;
+    
+}
+h2{
+    color: violet;
+    text-align: center;
+}
