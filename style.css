@@ -58,13 +58,13 @@ header{
         margin-top: 10px;
         color: indianred;
     }
+    .col .name:hover{
+        color: violet;
+    }
     .col .price{
         font-weight: bold;
         margin-top: 10px;
         color: lawngreen;
-    }
-    .col .name:hover{
-        color: violet;
     }
     .col .price:hover{
         color: violet;
@@ -79,7 +79,7 @@ header{
         
 }
     
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
     h2{
         text-align: center;
         font-size: 7vw;
@@ -88,8 +88,11 @@ header{
     nav a{
         width: 100%;
     }
+    article{
+        width: 100%;
+    }
 }
-/*--Tin tức---*/
+/*---Tin tức-------*/
 h2{
     color: red;
     text-align: center;
